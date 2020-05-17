@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol viewBox="-3.6 -3.6 43.199999999999996 43.199999999999996" id="emoji">
+    <g>
+      <path fill="transparent" d="M24.187 9.657l5.658-5.654L32 6.16l-5.658 5.655z" style="stroke-width: calc(0px + 4px)"/>
+      <circle fill="transparent" cx="14" cy="22" r="14" style="stroke-width: calc(0px + 4px)"/>
+      <path fill="transparent" d="M19 11.342l5.658-5.657 5.657 5.658L24.657 17z" style="stroke-width: calc(0px + 4px)"/>
+      <circle fill="transparent" cx="32" cy="4" r="4" style="stroke-width: calc(0px + 4px)"/>
+      <circle fill="transparent" cx="32" cy="4" r="2" style="stroke-width: calc(0px + 4px)"/>
+    </g>
+    <path fill="#CCD6DD" d="M24.187 9.657l5.658-5.654L32 6.16l-5.658 5.655z" stroke="transparent"/>
+    <circle fill="#31373D" cx="14" cy="22" r="14" stroke="transparent"/>
+    <path fill="#31373D" d="M19 11.342l5.658-5.657 5.657 5.658L24.657 17z" stroke="transparent"/>
+    <circle fill="#F18F26" cx="32" cy="4" r="4" stroke="transparent"/>
+    <circle fill="#FDCB58" cx="32" cy="4" r="2" stroke="transparent"/>
+  </symbol>
+</svg>
