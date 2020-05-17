@@ -11,41 +11,49 @@ html, body {
     color: white;
 }
 
-.emojione {
+.emojione, .emojione > img {
     height: 1em;
     width: 1em;
 }
 
-.emojione use {
-    stroke: transparent;
+.emojione > .has-border {
+    display: none;
 }
 
-.emojione.border use {
-    stroke: white;
+.emojione.border > .has-border {
+    display: unset;
+}
+
+.emojione.border > .no-border {
+    display: none;
 }
 </style>
     </head>
     <body>
 	<p>
 	    Test
-	    <svg class="emojione border">
-		<use xlink:href="1f3b1.svg#emoji"></use>
-	    </svg>
+	    <span class="emojione border">
+		<img src="1f3b1.svg" class="no-border">
+		<img src="1f3b1-bordered.svg" class="has-border">
+	    </span>
 	    Test
-	    <svg class="emojione">
-		<use xlink:href="1f3b1.svg#emoji"></use>
-	    </svg>
+	    <span class="emojione">
+		<img src="1f3b1.svg" class="no-border">
+		<img src="1f3b1-bordered.svg" class="has-border">
+	    </span>
 	    Test
 	</p>
 	<p>
 	    Test
-	    <svg class="emojione border">
-		<use xlink:href="1f4a3.svg#emoji"></use>
-	    </svg>
+	    <span class="emojione border">
+		<img src="1f4a3.svg" class="no-border">
+		<img src="1f4a3-bordered.svg" class="has-border">
+	    </span>
 	    Test
-	    <svg class="emojione">
-		<use xlink:href="1f4a3.svg#emoji"></use>
-	    </svg>
+	    <span class="emojione">
+		<img src="1f4a3.svg" class="no-border">
+		<img src="1f4a3-bordered.svg" class="has-border">
+	    </span>
 	    Test
 	</p>
     </body>
